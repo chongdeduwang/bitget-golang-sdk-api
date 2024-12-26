@@ -1,13 +1,14 @@
 package common
 
 import (
-	"bitget/config"
-	"bitget/constants"
-	"bitget/internal"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/chongdeduwang/bitget-golang-sdk-api/internal"
+	"github.com/chongdeduwang/bitget-golang-sdk-api/constants"
+	"github.com/chongdeduwang/bitget-golang-sdk-api/config"
 )
 
 type BitgetRestClient struct {

@@ -1,8 +1,8 @@
 package client
 
 import (
-	"bitget/internal"
-	"bitget/internal/common"
+	"github.com/chongdeduwang/bitget-golang-sdk-api/internal"
+	"github.com/chongdeduwang/bitget-golang-sdk-api/internal/common"
 )
 
 type BitgetApiClient struct {

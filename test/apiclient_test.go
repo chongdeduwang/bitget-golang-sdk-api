@@ -1,11 +1,12 @@
 package test
 
 import (
-	"bitget/internal"
-	"bitget/pkg/client"
-	"bitget/pkg/client/v1"
 	"fmt"
 	"testing"
+
+	"github.com/chongdeduwang/bitget-golang-sdk-api/internal"
+	"github.com/chongdeduwang/bitget-golang-sdk-api/pkg/client"
+	v1 "github.com/chongdeduwang/bitget-golang-sdk-api/pkg/client/v1"
 )
 
 func Test_PlaceOrder(t *testing.T) {
